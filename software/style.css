@@ -1,0 +1,361 @@
+h1 {
+    font-style: italic;
+    font-size: 18px;
+    color: #373fff;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+.projects p {
+    font-size: 24px;
+}
+
+.textmain p {
+    font-size: 20px;
+    line-height: -8px;
+}
+
+.boxliner {
+    padding-left: 10%;
+    padding-right: 45%;
+    text-align: left;
+}
+
+.scoreboardinfo p {
+    font-size: 16px;
+    text-align: left;
+}
+
+table {
+    text-align: center;
+}
+
+.code p {
+    font-size: 7px;
+}
+
+.timer p {
+    font-size: 8px;
+}
+
+getTime {
+    font-style: italic;
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+    font-size: 12px;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.morse {
+    color: #ffffff
+}
+
+.days {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.hours {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.mins {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.secs {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.end {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+#notifypop {
+    display: none;
+}
+
+body {
+    font-family: courier, helvetica, arial, sans-serif;
+    margin: 2em;
+    color: #cbcbcb;
+    background: url("https://cdn.glitch.com/806c4b29-17a4-4de5-a660-fd1052b17ca6%2Fbackground.png?v=1589155678335");
+    overflow-wrap: break-word;
+}
+
+light {
+    background: url("https://cdn.glitch.com/806c4b29-17a4-4de5-a660-fd1052b17ca6%2Fbackgroundlight.png?v=1589516708630");
+    color: #000000;
+    filter: invert (100%)
+}
+
+dark {
+    background: url("https://cdn.glitch.com/806c4b29-17a4-4de5-a660-fd1052b17ca6%2Fbackgroundlight.png?v=1589516708630");
+    color: #000000;
+}
+
+black {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+white {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.normal {
+    background: url("https://cdn.glitch.com/806c4b29-17a4-4de5-a660-fd1052b17ca6%2Fbackgroundlight.png?v=1589516708630");
+    color: black;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-group button {
+    background-color: #4CAF50;
+    /* Green background */
+    border: 1px solid green;
+    /* Green border */
+    color: white;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    float: left;
+    /* Float the buttons side by side */
+}
+
+
+/* Clear floats (clearfix hack) */
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+
+/* Add a background color on hover */
+
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+
+.btn-group button {
+    background-color: #4CAF50;
+    /* Green background */
+    border: 1px solid green;
+    /* Green border */
+    color: white;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    float: left;
+    /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+
+/* Clear floats (clearfix hack) */
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Add a background color on hover */
+
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Dropdown button on hover & focus */
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
+}
+
+#close-image img {
+    display: block;
+    height: 130px;
+    width: 100px;
+}
+
+#close-CSS {
+    background-image: url('');
+    background-size: 100px 130px;
+    height: 134px;
+    width: 104px;
+}
+
+.f123 {
+    display: none;
+}
+
+.hr3 {
+    color: green;
+}
+
+.hr4 {
+    color: blue;
+}
+
+.hr5 {
+    color: #851e3e;
+}
+
+.hr6 {
+    color: #009688;
+}
+
+.hr7 {
+    color: #f37736;
+}
+
+.hr8 {
+    color: #708090;
+}
+
+.seeme-1 {
+    color: green;
+}
+
+.seeme-2 {
+    color: blue;
+}
+
+.seeme-3 {
+    color: #851e3e;
+}
+
+.seeme-4 {
+    color: #009688;
+}
+
+.seeme-5 {
+    color: #f37736;
+}
+
+.seeme-6 {
+    color: #708090;
+}
