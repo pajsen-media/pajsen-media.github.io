@@ -1,0 +1,100 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  <body>
+    <div id="content">
+      
+    <h1>
+      Javascript Development
+    </h1>
+    <div id="frameworksfront">
+      {{ message }}
+    </div>
+
+    <div id="vue">
+      {{ message }}
+    </div>
+    <div id="react">
+      {{ message }}
+    </div>
+    <div id="angur">
+      {{ message }}
+    </div>
+
+    <br />
+    <br />
+    <div id="frameworksback">
+      {{ message }}
+    </div>
+
+    <div id="express">
+      {{ message }}
+    </div>
+
+    <!-- development version, includes helpful console warnings -->
+
+    <div id="app-2">
+      <span v-bind:title="message"> </span>
+    </div>
+
+    <script>
+           var frameworksfront = new Vue({
+             el: "#frameworksfront",
+             data: {
+               message: "Front-End Frameworks I work with:"
+             }
+           });
+
+           var vue = new Vue({
+             el: "#vue",
+             data: {
+               message: "Vue JS"
+             }
+           });
+
+           var react = new Vue({
+             el: "#react",
+             data: {
+               message: "React JS"
+             }
+           });
+           var angur = new Vue({
+             el: "#angur",
+             data: {
+               message: "Angur JS"
+             }
+           });
+
+           var backend = new Vue({
+             el: "#frameworksback",
+             data: {
+               message: "Back-End Frameworks I work with:"
+             }
+           });
+
+           var back = new Vue({
+             el: "#express", //gets the ID that you want to use.
+             data: {
+               message: "Express"
+             }
+           });
+
+
+           var sitecode = new Vue({
+             el: "#sitecode",
+             data: {
+               message: "This page uses HTML Vue JS and React JS"
+             }
+           })
+    </script>
+    </div>
+    
+    <div id="footer">
+      
+    <p class="sitecode">
+      This page is made with HTML, Vue JS and React JS
+    </p>
+    </div>
+  </body>
+</head>
