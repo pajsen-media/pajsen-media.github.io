@@ -1,2 +1,0 @@
-# pajsen-media
- 
